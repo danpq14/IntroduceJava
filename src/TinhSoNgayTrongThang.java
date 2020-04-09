@@ -33,7 +33,7 @@ public class TinhSoNgayTrongThang {
                 dayOfMonth = "Bạn nhập ko chính xác";
         }
         if (dayOfMonth != "Bạn nhập ko chính xác") {
-            System.out.printf("Tháng 3%d có %s ngày", month, dayOfMonth);
+            System.out.printf("Tháng %d có %s ngày", month, dayOfMonth);
         } else  {
             System.out.println(dayOfMonth);
         }
